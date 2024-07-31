@@ -63,7 +63,7 @@ class ModelMapperConfigTest {
             // Then
             assertThat(modelMapper1).isNotNull();
             assertThat(modelMapper2).isNotNull();
-            assertThat(modelMapper1).isSameAs(modelMapper2); // Ensuring it is a singleton
+            assertThat(modelMapper1).isSameAs(modelMapper2);
         }
 
         @Test
